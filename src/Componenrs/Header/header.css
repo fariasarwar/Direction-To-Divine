@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px 0 25px;
+
+}
+.logo-section{
+    width: 150px;
+}
+.navbar-links{
+    text-decoration: none;
+    padding: 9px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}

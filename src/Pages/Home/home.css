@@ -1,0 +1,313 @@
+.Home-container{
+    /* background-color: aqua; */
+}
+.home-img{
+    height: 607px;
+    width: 100%;
+}
+.homeimg{
+    background-image: url(../../assets/Images/homeimg.png);
+    width: 100%;
+    height: 607px;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    background-size:100% 100%;
+    /* filter: brightness(65%); */
+}
+.homeimg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 607px;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, .350);
+}
+.home-bg-text{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 216px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 190px;
+    word-spacing: 9px;
+}
+.home-bg-text h1{
+    color: #fdf5e2;
+    text-transform: capitalize;
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+.home-btn{
+    padding: 15px 62px;
+    color: #fdf5e2;
+    font-size: 23px;
+    font-weight:800;
+    letter-spacing: -1px;
+    font-family: Lato, sans-serif;
+    background-color: transparent;
+    border:1px solid #fdf5e2 ;
+    border-radius: 50px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+/* ======================= section ========================== */
+.home-section{
+    display: flex;
+    flex-direction: column;
+}
+.h-div-1{
+    background-color:#042C00;
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+}
+.s-about{
+    /* background-color: #042C00; */
+    width: 25%;
+    padding: 0px 12px 10px 12px;
+}
+.s-about-p1{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(253, 126, 20);
+    font-family: Lato, sans-serif;
+    margin-bottom: 16px;
+}
+.s-about-p2{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    line-height: 45px;
+    font-family: Lato, sans-serif;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+.s-about-p3{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(253, 126, 20);
+    font-family: Lato, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.s-about-p4{
+    color: white;
+    font-size: 13px;
+    font-family: Lato, sans-serif;
+    line-height: 21px;
+
+}
+.s-about-p4-quote1{
+    width: 25px;
+    height: 25px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.s-about-p4-quote2{
+    width: 25px;
+    height: 25px;
+    color: white;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.s-content{
+    /* background-color: #2cee1b; */
+    width: 53%;
+    padding: 0 12px 0px 24px;
+    border-left-color: rgb(10, 98, 0);
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.s-content-p1{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: Lato, sans-serif;
+    margin-bottom: 15px;
+}
+
+/* ============================ Slider 1 ======================== */
+
+.slider-main-dev{
+    background-color: white;
+    height: 660px;
+    padding: 48px 16px 48px 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.slider-heading{
+    /* background-color: aqua; */
+    padding-top: 16.5px;
+}
+.slider-heading h1{
+    color: rgb(4, 44, 0);
+    font-family: Lato,sans-serif;
+    font-size: 35.5px;
+    font-weight: 600px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.slider-h-para{
+    /* background-color: rgb(209, 191, 144); */
+    font-family: Lato,sans-serif;
+    font-size: 14.4px;
+    font-weight: 300px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: rgb(32, 31, 31);
+}
+.Slider-div{
+    /* background-color: rgb(163, 192, 83); */
+    height: 518px;
+    padding: 48px 0;
+}
+/* ============================== Slider 2 ======================= */
+
+.slider-2-main-div{
+    background-color: #fdf5e2;
+    height: 580px;
+    padding: 0 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.slider-2-heading{
+    /* background-color: aqua; */
+    padding: 40px 0;
+}
+.slider-2-heading h1{
+    color: rgb(4, 44, 0);
+    font-family: Lato,sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+    text-align: center;
+    margin-bottom: 9px;
+    letter-spacing: -1px;
+}
+.Slider-2-div{
+    /* background-color: rgb(163, 192, 83); */
+    padding-bottom: 48px;
+}
+
+
+/* =========================== Ayat =========================== */
+.ayat-div{
+    background-color: rgb(253, 126, 20);
+    width: 100%;
+    height: 210px;
+}
+.ayat-div-content{
+    width: 85%;
+    margin: auto;
+}
+.ayat-div-content-p1{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    padding: 24px 8px 0px 8px;
+    margin-bottom: 22px;
+}
+.ayat-div-content-quote1{
+    color: white;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.ayat-div-content-quote2{
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.ayat-div-content-p2{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    margin-bottom: 16px;
+}
+/* .home-img::after{
+    color: #fdf5e2;
+    content: "Let's explore the linguistic beauty of the Divine's message, Al-Kitab";
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    top: 25.3%;
+    text-align: center;
+    padding: 0 170px;
+    word-spacing: 10px;
+} */
+
+
+/* .home-bg{
+    background-image: url(../../assets/Images/homeimg.JPG);
+    width: 100%;
+    height: 607px;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    align-content: center;
+    justify-items: center;
+}
+.home-bg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 607px;
+    background-color: rgba(0, 0, 0, .350);
+}
+.home-bg-content{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(237, 242, 242);
+    text-align: center;
+    padding:0 20px;
+    position: relative;
+    margin-top: 78px;
+}
+.home-bg-content h1{
+    color: white;
+    font-size: 50px;
+    font-family: Lato, sans-serif;
+    word-spacing: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 18px 70px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display:inline-block;
+    cursor: pointer;
+} */

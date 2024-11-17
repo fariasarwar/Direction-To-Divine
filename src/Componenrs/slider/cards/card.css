@@ -1,0 +1,92 @@
+.card1-container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.teamCard{
+    position: relative;
+    width: 270px;
+    height: 350px;
+    border: 5px solid rgb(220, 220, 220);
+    background-color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    overflow: hidden;
+    margin: 16px 4px;
+}
+.teamBio{
+    cursor: pointer;
+    /* width: 300px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    text-align: center;
+    background-color: transparent;
+}
+.teamImgBorder{
+    /* border: 5px solid rgb(0, 170, 23); */
+    border: 5px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    padding: 10px;
+    object-position: top;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #fdf5e2;
+    margin-bottom: 8px;
+}
+
+.teamImgBorder img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: white;
+    object-position: center;
+    object-fit: cover;
+}
+.TeamName{
+    margin-bottom: 0px;
+    color: #042c00;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Lato,sans-serif;
+    letter-spacing: -1px;
+}
+.teamSbtitle{
+    margin: 0px;
+    font-size: 16px;
+    color: #fd7e14;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 5px 0;
+    font-family: Lato,sans-serif;
+}
+.TeamDiscription{
+    font-size: 11.5px;
+    color: #042c00;
+    padding: 0px 13.699px;
+    margin-top: 10px;
+    font-family: Lato,sans-serif;
+}
+.bgLightArea{
+    height: 130px;
+    background-color: white;
+}
+.bgGreyArea{
+    background-color: #fdf5e2;
+    height: 260px;
+}
+.tagLine{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    background: #042c00;
+}

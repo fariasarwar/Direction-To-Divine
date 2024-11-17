@@ -1,0 +1,46 @@
+.lowerf-container{
+    background-color: #042C00;
+}
+.lower-footer{
+    padding: 0px 16px;
+    height: 28px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.copyright-div{
+    width: 50%;
+    text-align: right;
+}
+.copyright-div h3{
+    color: #FD7E14;
+    font-family: Lato,sans-serif;
+    font-size: 13px;
+}
+
+.lower-f-name{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.lower-f-name h3{
+    color: #FD7E14;
+    font-family: Lato,sans-serif;
+    font-size: 13px;
+}
+.link-h{
+    color: #FD7E14;
+    font-family: Lato,sans-serif;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.lower-f-name-icons{
+    color: #FD7E14;
+    margin-left: 8px;
+}
+.link-h:hover {
+    color: rgb(10, 98, 0);
+}
+.lower-f-name-icons:hover {
+    color: rgb(10, 98, 0);
+}
